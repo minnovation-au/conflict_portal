@@ -79,7 +79,7 @@ if ( ! empty( $meta_editor1 ) ) {
 
 
 
-if (( is_single( 'Outcome Page' )) || ( is_single( 'Save Details' )) || ( is_single( 'Start' ))) {
+if (( is_single( 'Outcomes' )) || ( is_single( 'Save Details' )) || ( is_single( 'Start' ))) {
 		
 	} else { ?>
 
@@ -183,7 +183,7 @@ if ( !is_writable(session_save_path()) ) {
 	
 	  if (isset($_POST['the-button'])) {
 		  
-		if (( is_single( 'Outcome Page' )) || ( is_single( 'Save Details' )) || ( is_single( 'Start' ))) {
+		if (( is_single( 'Outcomes' )) || ( is_single( 'Save Details' )) || ( is_single( 'Start' ))) {
 		
 	} else { 	  
 		  
